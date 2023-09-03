@@ -1,5 +1,5 @@
 import { Request, Response } from 'express';
-import { BadRequestError } from '../errors/bad-request-error';
+import { BadRequestError } from '@a7common/tix';
 import { User } from '../models/user';
 import { Password } from '../services/password';
 import jwt from 'jsonwebtoken';

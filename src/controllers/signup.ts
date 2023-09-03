@@ -1,9 +1,9 @@
 import express, { Request, Response } from 'express';
 import { validationResult } from 'express-validator';
-import { RequestValidationError } from '../errors/request-validation-error';
+import { RequestValidationError } from '@a7common/tix';
 // import { DatabaseConnectionError } from '../errors/database-connection-error';
 import { User } from '../models/user';
-import { BadRequestError } from '../errors/bad-request-error';
+import { BadRequestError } from '@a7common/tix';
 import jwt from 'jsonwebtoken';
 
 const signupCtrl = async (req: Request, res: Response) => {

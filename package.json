@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "@a7common/tix": "^1.0.4",
     "@types/cookie-session": "^2.0.44",
     "@types/express": "^4.17.17",
     "@types/jsonwebtoken": "^9.0.2",

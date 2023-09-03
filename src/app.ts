@@ -14,8 +14,8 @@ app.use(
 );
 
 import { authRouter } from './routes/signup';
-import { errorHandler } from './middleware/error-handler';
-import { NotFoundError } from './errors/not-found-error';
+import { errorHandler } from '@a7common/tix';
+import { NotFoundError } from '@a7common/tix';
 
 app.use(authRouter);
 

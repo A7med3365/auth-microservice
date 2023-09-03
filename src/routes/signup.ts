@@ -7,8 +7,8 @@ import { signupCtrl } from '../controllers/signup';
 import { signinCtrl } from '../controllers/signin';
 import { signoutCtrl } from '../controllers/signout';
 import { currentUserCtrl } from '../controllers/currentUser';
-import { validateRequest } from '../middleware/validate-req';
-import { currentUser, isAuth } from '../middleware/logged-in-check';
+import { validateRequest } from '@a7common/tix';
+import { currentUser, isAuth } from '@a7common/tix';
 
 router.post(
   '/api/users/signup',
